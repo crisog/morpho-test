@@ -1,7 +1,8 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
 export default buildModule("CollateralTokenModule", (m) => {
-  const token = m.contract("CollateralToken", [100000000000000000000000n]);
+  const initialSupply = 100000000000000000000000n;
+  const token = m.contract("CollateralToken", [initialSupply]);
 
   return { token };
 });
