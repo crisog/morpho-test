@@ -28,7 +28,7 @@ ETHERSCAN_API_KEY= # if you want your contracts to be verified automatically
 
 ```
 
-## Deployment Scripts
+## Deployments
 
 ### Deploy Collateral Token
 
@@ -48,7 +48,7 @@ npx hardhat ignition deploy ./ignition/modules/CollateralToken.ts --network sepo
 npx hardhat ignition deploy ./ignition/modules/CollateralToken.ts --network sepolia --verify
 ```
 
-## Morpho Interactions Scripts
+## Morpho Interactions
 
 ### Create Market
 
